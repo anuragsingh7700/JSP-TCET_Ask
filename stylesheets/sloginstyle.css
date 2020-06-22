@@ -1,0 +1,89 @@
+@import url("style.css");
+*{margin: 0;padding: 0;}
+.login{
+ width: 350px;
+ height:450px;
+ top: 50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ text-align: center;
+border-radius: 20px;
+box-shadow: -10px 0px 10px rgba(0,0,0,0.7);
+background-color:#3366fe;
+background-color: rgba(0,0,0,0.5);
+padding: 15px;
+color:white;
+}
+.login ul{list-style: none;}
+.inputbox{
+ width:200px;
+ height:35px;
+ display: block;
+ margin: auto;
+ padding: 0 10px;
+ box-sizing: border-box;
+ border-radius: 10px;
+ background-color: rgba(0,0,0,0.3 );
+ color: white;
+ border-width: 2px;
+ border-color: white;
+}
+.inputbox:hover{
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+}
+::placeholder{
+ letter-spacing: 2px;
+color:white;
+}
+.sub{
+	 width: 250px;
+ height: 50px;
+ text-align: center;
+ font-size: 30px;
+ background-color:white
+   margin: auto;
+   display: block;
+   background:#3366fe;
+   border-radius: 15px;
+}
+.formbut{
+	width: 80px;
+	height: 30px;
+	border-width: 3px;
+	border-color: black;
+	background-color:#3366fe;
+	border-radius: 10px;
+	color: white;
+	padding: 5px;
+}
+.formbut a {
+text-decoration: none;
+color:white;
+}
+.formbut:hover{
+	background-color: white;
+	border-color: orange;
+	color: black;
+}
+.formbut a :hover{
+	color: black;
+}
+.deptselect ul{
+	width: 90%;
+display: flex;
+justify-content: space-around;
+border-width:  3px;
+padding: 20px;}
+.deptselect ul a{text-decoration: none;
+	color: black;
+font-size: 20px;
+background-color: #e3e3e3;
+border-radius: 5px;
+padding: 5px;
+font-weight: bold;
+}
+.table{
+	text-align: left;
+}

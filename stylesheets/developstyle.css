@@ -1,0 +1,41 @@
+@import url("style.css");
+{@padding: 0;margin: 0;
+width: 100%;
+height: 100vh;text-align: center}
+.develop{display: flex;
+justify-content: space-around;}
+.imgedit{
+	border-width: 5px;
+	border-color: black;
+	border-radius: 100px;
+	padding: 3vh;
+}
+.det{
+width: 30%;
+height: 65vh;
+display: block;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+font-family: serif;
+color: black;
+border-radius: 0px;}
+.det:hover{
+	background-color: rgba(0,0,0,.2);
+	box-shadow: -50px 20px 40px rgba(0,0,0,0.7);
+	border-radius: 100px;
+	border-color:red;
+	border-width: 10px;
+	transition: 1s;
+}
+.madeinindia{
+	width: 50%;
+	display: inline-flex;
+	font-size: 46px;
+	font-weight: bolder;
+	transform: translateX(74%);
+	letter-spacing: 3px;
+}
+.made{color: #ff9933;}
+.in{color: #000080;}
+.india{color: #138808}
